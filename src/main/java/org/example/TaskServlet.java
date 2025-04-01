@@ -37,6 +37,7 @@ public class TaskServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         String pathInfo = request.getPathInfo();
         if (pathInfo == null) {
             TaskEntity task = new TaskEntity();

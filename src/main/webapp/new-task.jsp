@@ -11,7 +11,7 @@
         </label>
         <br>
         <label>
-            Описание задачи: <input type="textarea" name="description" required>
+            Описание задачи: <input type="textarea" n"descriptioame=n" required>
         </label>
         <br>
         <label>
